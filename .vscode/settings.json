@@ -23,5 +23,17 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Dark",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "sqltools.connections": [
+      {
+         "pgOptions": {
+            "ssl": true
+         },
+         "previewLimit": 50,
+         "server": "localhost",
+         "driver": "PostgreSQL",
+         "name": "ag_django_blog",
+         "connectString": "postgres://uvym4bbbkmq:4LSew5YltdJi@ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech/marry_draw_iron_334444"
+      }
+   ]
 }
